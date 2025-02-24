@@ -35,3 +35,10 @@ conda deactivate openvino
 ```sh
 conda remove -h openvino --al -y
 ```
+
+
+## Install support package
+
+```sh
+envs conda install -c conda-forge pandas
+```
