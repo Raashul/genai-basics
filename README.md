@@ -4,16 +4,16 @@ https://www.anaconda.com/download/success
 
 ## Create new env  
 
-Create a new python environment called openvino with python version 3.10.0
+Create a new python environment called hello with python version 3.10.0
 
 ```sh
-conda create --name openvino python=3.10.0 -y
+conda create --name hello python=3.10.0 -y
 ```
 
 ## Active environment
 
 ```sh
-conda activate openvino
+conda activate hello
 ```
 
 
@@ -29,16 +29,20 @@ conda info
 
 We can see things like where the python environment exists
 ```sh
-conda deactivate openvino
+conda deactivate
 ```
 
 ```sh
-conda remove -h openvino --al -y
+conda remove -h openvino --all -y
 ```
 
 
 ## Install support package
 
 ```sh
-envs conda install -c conda-forge pandas
+conda install -c conda-forge pandas
+```
+
+```sh
+conda install -c conda-forge ipykernel
 ```
